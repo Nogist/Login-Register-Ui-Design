@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sign Up</title>
+  <link href="../css/signup.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form action="../pages/success.html">
+        <div class="sigin-content">
+            <div class="sign-in-protocol">
+                <h1>Create Your Account <span></span></h1>
+                <h4>Please enter info to create your account</h4>
+                <div class="sign-in">
+                    <div class="sign-in-input">
+                        <img src="../assets/name.png" alt="name" />
+                        <input type="text" required placeholder="First Name">
+                    </div>
+                    <p class="type"></p>
+                </div>
+                <div class="sign-in">
+                    <div class="sign-in-input">
+                        <img src="../assets/name.png" alt="name" />
+                        <input type="text" required placeholder="Last Name">
+                    </div>
+                    <p class="type"></p>
+                </div>
+                <div class="sign-in">
+                    <div class="sign-in-input">
+                        <img src="../assets/email.png" alt="name" />
+                        <input type="email" required placeholder="Email Address">
+                    </div>
+                    <p class="type"></p>
+                </div>
+                <div class="sign-in">
+                    <label  for="gender"><h2>Select a  Gender</h2></label>
+                    <select name="gender" >
+                        <option value=""> </option>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                    <p class="type"></p>
+                </div>
+                <div class="sign-in">
+                    <label id="birthday" for="birthday"><h2>Birthday</h2></label>
+                    <input type="date" id="birthday" name="birthday">
+                    <p class="type"></p>
+                </div>
+                <div class="sign-in">
+                    <label for="favcolor"><h2>Select your favorite color</h2></label>
+                    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                </div>
+                <button value="submit"> REGISTER</button>
+            </div>
+            <div class="sign-in-log">
+                <p>Already have an account? <a href="../index.html">LOG IN</a></p>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

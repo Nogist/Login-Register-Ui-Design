@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action="pages/success.html">
+    <div class='login' id="login">
+      <h1> Login </h1>
+      
+        <div class='login-input'>
+          <p>Email </p>
+          <div class='login-input-sect'> 
+            <img id="email" src='assets/email.png' alt='name'  />
+            <input type="email" placeholder="Type your email" required >
+          </div>
+          <p class='type' id="type"></p>
+        </div>
+        <div class='login-input'>
+          <p> Password </p>
+          <div class='login-input-sect'>
+            <img  src='assets/loc.png' alt='loc' />
+            <input type='password' minlength="8"  placeholder='Type your password' required >
+          </div>
+          <p class='type'></p>
+        </div>
+        <p class='forgot'><a href=".">Forgot Password? </a></p>
+    
+      <button value='submit' class='login-btn'>LOGIN</button>
+      <div class='other-signs'>
+        <p>Or Sign Up Using</p>
+        <div class='other-sign-method'>
+          <p>
+            <a href="."><img id='face'src='assets/facebook.png' alt='facebook'/></a>
+            <a href="."><img id='twit' src='assets/twitter.png' alt='twitter'/></a>
+            <a href="."><img src='assets/google.png' alt='google'/></a>
+          </p>  
+        </div>
+        <div class='sign-up'>
+          <p>Or Sign Up Using </p>
+          <p> <a href='pages/signup.html'>SIGN UP</a> </p>
+        </div>
+      </div>
+    </div>
+  </form>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
